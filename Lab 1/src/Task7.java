@@ -9,6 +9,7 @@ public class Task7 {
         int number;
         System.out.print("Enter a number: ");
         number = input.nextInt();
+
         do {
             if (number > 0) {
                 positive_total += number;
@@ -18,7 +19,9 @@ public class Task7 {
             System.out.print("Enter another number: ");
             number = input.nextInt();
 
-        } while (number != 0);
+        }
+
+        while (number != 0);
 
         System.out.println("Positive total: " + positive_total);
         System.out.println("Negative total: " + negative_total);

@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the first number: ");
+
         int number_1 = input.nextInt();
         System.out.print("Enter the second number: ");
         int number_2 = input.nextInt();
@@ -18,7 +20,22 @@ public class Task1 {
         }
         else {
             System.out.println("All three are different numbers. ");
-
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
