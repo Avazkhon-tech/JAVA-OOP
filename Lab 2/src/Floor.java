@@ -9,13 +9,4 @@ public class Floor {
             }
         }
     }
-
-    public void addStore(String id, String name, String type, int position) {
-        for (int i = 0; i < stores.length; i++) {
-            if (i == position) {
-                stores[i] = new Store(id, name, type);
-                break;
-            }
-        }
-    }
 }

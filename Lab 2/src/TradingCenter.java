@@ -12,21 +12,20 @@ public class TradingCenter {
             floors[0].addStore(id, name, type);
         } else if (type.equals("men")) {
             floors[1].addStore(id, name, type);
-        } else if (type.equals("women")) {
+        } else {
             floors[2].addStore(id, name, type);
         }
     }
 
-    public void addStore(String id, String name, String type,) {
+    public void addStore(String id, String name, String type, int positionId) {
         if (type.equals("baby")) {
             floors[0].addStore(id, name, type);
         } else if (type.equals("men")) {
             floors[1].addStore(id, name, type);
-        } else if (type.equals("women")) {
+        } else {
             floors[2].addStore(id, name, type);
         }
     }
+
+
 }
-
-
-
